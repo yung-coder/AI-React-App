@@ -12,11 +12,11 @@ const Card: React.FC<CardProps> = ({ meaning }) => {
     song.play();
   };
   return (
-    <div className="flex w-screen h-full overflow-auto  justify-center items-center md:p-36  flex-col space-y-8 md:space-x-8 md:flex-row md:space-y-0  pt-[500px] ">
+    <div className="flex w-screen h-screen   justify-center items-center md:p-36  flex-col space-y-8 md:space-x-8 md:flex-row md:space-y-0  pt-[36px] overflow-auto">
       {meaning &&
         meaning.map((item: data , i) => {
           return (
-            <div className="h-max w-80 md:w-96 break-words  backdrop-blur-2xl  hover:shadow-black  hover:shadow-xl md:transition md:ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 cursor-pointer " key={i}>
+            <div className="flex flex-col h-max  w-80 md:w-80 md:h-[600px] break-words  backdrop-blur-2xl  hover:shadow-black  hover:shadow-xl md:transition md:ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-110 cursor-pointer overflow-auto" key={i}>
               <div className="p-7">
                 <div className="flex flex-col space-y-1">
                   <div className="flex space-x-7">

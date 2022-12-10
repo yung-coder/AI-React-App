@@ -10,8 +10,9 @@ body {
 
 @media  (max-width:764px) {
   body{
-    background-image: url("../images/res-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-image: url("../images/bg-latest.jpg");
+    width: 100%;
+    height: auto;
+    background-size: cover;
   }
 }
