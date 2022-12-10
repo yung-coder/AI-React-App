@@ -12,7 +12,7 @@ const Home: React.FC<HomeProps> = () => {
       </div>
       <div className="w-48 h-48 md:w-52 md:h-52 flex justify-center items-center  absolute ml-9 md:ml-[360px]">
         <img
-          src="./public/images/arrow2.png"
+          src="./images/arrow2.png"
           alt=""
           className="w-full  h-full"
         />
