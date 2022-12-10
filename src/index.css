@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("../public/images/bg-latest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media  (max-width:764px) {
+  body{
+    background-image: url("../images/res-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
